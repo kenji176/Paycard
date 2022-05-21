@@ -5,7 +5,6 @@ import random, string
 import asyncio
 
 
-
 client = discord.Client()
 card = Pyment.card()
 
@@ -30,5 +29,5 @@ async def on_message(message):
     else:
         pass
 
-loop=asyncio.get_event_loop()
+loop = asyncio.get_event_loop()
 client.run('token')
