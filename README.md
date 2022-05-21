@@ -4,7 +4,7 @@
 embed埋め込みするときれいかな
 
 # botでの使用
-![成功](TEST/TESt.png)
+![bot](TEST/TEST.png)
 
 
 # SECCESS
