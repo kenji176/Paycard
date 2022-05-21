@@ -60,4 +60,3 @@ class card:
                 return image_bytes
             else:
                 print("指定されたURLには画像データが存在しません")
-        # MyClass のインスタンスを生成
