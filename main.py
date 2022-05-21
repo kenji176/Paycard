@@ -23,7 +23,6 @@ async def on_message(message):
         await message.channel.send(file=file)
     elif "paycard2" in message.content:
         img = await loop.run_in_executor(None,card.paypay,False,message.author.avatar_url,message.author.name,str(random.randrange(100000)))
-
         file = discord.File(img,filename="paycard.png")
         await message.channel.send(file=file)
     else:
