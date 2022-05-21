@@ -3,6 +3,10 @@
 決済用画像を簡単に作ります
 embed埋め込みするときれいかな
 
+# botでの使用
+![成功](TEST/TESt.png)
+
+
 # SECCESS
 ![成功](TEST/success.png)
 
