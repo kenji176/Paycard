@@ -37,4 +37,4 @@ async def on_message(message):
         pass
 
 loop=asyncio.get_event_loop()
-client.run('ODgyODkyMTU5MDMwODEyNjgz.YTB_Zg.TIuXQJ_jhndRoRgwXBOqZ37tPHE')
+client.run('token')
