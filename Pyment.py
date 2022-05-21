@@ -16,7 +16,7 @@ class card:
         self.yen_font = ImageFont.truetype(r'Font\BIZ-UDGOTHICB.TTC',300)
 
     def paypay(self,True_or_False,image_url,name,amount):
-        if True_or_False=="True":
+        if True_or_False:
             Tpay_im = Image.open(r'Image\PayPay0.png')
             dt_now = datetime.datetime.now()
             Byte_Image = io.BytesIO(requests.get(image_url).content)
