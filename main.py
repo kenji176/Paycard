@@ -18,7 +18,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if "paycard1" in message.content:
-        img = await loop.run_in_executor(None,card.paypay,"True",message.author.avatar_url,"sinc","100")
+        img = await loop.run_in_executor(None,card.paypay,True,message.author.avatar_url,"sinc","100")
         file = discord.File(img,filename="paycard.png")
         await message.channel.send(file=file)
     elif "paycard2" in message.content:
